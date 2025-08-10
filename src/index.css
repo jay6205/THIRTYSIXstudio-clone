@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    /* background-color: #fd2c2a; */
+    background-color: #000;
+}
+canvas{
+    pointer-events: none;
+}
+span.growing{
+    background-color: #fd2c2a;
+}
+
