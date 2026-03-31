@@ -1,12 +1,32 @@
-# React + Vite
+## Thirtysixstudio Interactive Canvas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React site with animated canvas sequences, smooth scrolling, and a custom cursor — powered by GSAP, Locomotive Scroll, and TailwindCSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+Animated Canvas Image Sequences
+- Uses GSAP to control frame progression and looping.
+- Supports multiple canvases with customizable position, size, and z-index from `data.js`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Custom Animated Cursor
+- Smooth, lagged cursor movement following the mouse.
+- Toggle visibility dynamically.
+
+Immersive Page Transitions
+- Click-based color transition effect using GSAP scaling animation (`growingSpan`).
+- Dynamic background and text color switching.
+
+Smooth Scrolling
+- Locomotive Scroll integration for buttery-smooth scrolling effects.
+- Variable scroll speeds for canvas elements.
+
+
+---
+
+## What I Learned
+- Using GSAP's `useGSAP` hook for frame-based animations..
+- Combining GSAP animations with state-based React UI changes.
+- Structuring data-driven animations with configuration objects (`data.js`).
+- Integrating Locomotive Scroll for advanced scrolling effects alongside React.
