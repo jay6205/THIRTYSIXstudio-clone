@@ -3,7 +3,7 @@ import "./index.css";
 import Canvas from "./Components/Canvas";
 import data from "./data";
 import LocomotiveScroll from "locomotive-scroll";
-import Navbar from "./Components/NavBar";
+import Navbar from "./Components/Navbar";
 import CustomCursor from "./Components/CustomCursor";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
